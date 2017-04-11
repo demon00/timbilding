@@ -265,7 +265,9 @@ $(window).load(function(){
 		//$("meta[name='viewport']").attr("content", 'width=device-width, initial-scale=1');
 		$(".scale-site").css({width:'100%', transform:'scale(1,1)'});
 		$('#wrapper').css({height:'auto'});
-		var width = $(window).width() + 17;
+		var width = $(window).width();
+
+		console.log(width);
 		if (width <= 480) {
 			$('body').addClass('mobile');
 		} else {				
