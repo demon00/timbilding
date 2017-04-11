@@ -1808,6 +1808,19 @@ th {
 
 }
 
+/*for IE*/
+@media screen and (min-width:0\0) {
+  .mobile .logo {
+    margin-right: 32px !important;
+  }
+
+  .gallery-event__foto-one,
+  .gallery-event__foto-two {
+    background-size: 287% !important;
+  }
+}
+/*for IE*/
+
 @media (max-width: 420px) {
 
   .main__image {

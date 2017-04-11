@@ -3223,6 +3223,8 @@ h3 .reviews-link {
 /*Timbilding*/
 /*Main Image*/
 
+/* Put your CSS code in the left column, instead of example, to put or remove unnecessary prefixes. */
+
 .main__image {
   background: url(../images/main-image.jpg) no-repeat 0 0;
   width: 107%;
@@ -3237,8 +3239,6 @@ h3 .reviews-link {
   height: 59px;
   border: 3px solid #c9c9c9;
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
 }
@@ -3272,11 +3272,17 @@ h3 .reviews-link {
   text-transform: uppercase;
   font-size: 1.2em;
   font-family: "PFHandbookPro-Regular", sans-serif;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
   transition: all .3s ease;
   position: relative;
 }
+
+/*for IE*/
+@media screen and (min-width:0\0) {
+  .menu__two_item-link {
+    padding-bottom: 3px;
+  }
+}
+/*for IE*/
 
 .menu__two_item-link:hover {
   color: #00709f;
@@ -3291,8 +3297,6 @@ h3 .reviews-link {
   left: -10px;
   bottom: 0;
   border: 2px solid rgba(0, 112, 159, 0);
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
   transition: all .3s ease;
 }
 
@@ -3305,8 +3309,8 @@ h3 .reviews-link {
   width: 100%;
   height: 1px;
   background: #ff6600;
-  bottom: 5px;
   left: 0;
+  bottom: 6px;
   z-index: 3;
   position: absolute;
   opacity: 0.3;
@@ -3366,13 +3370,7 @@ h3 .reviews-link {
   font-family: "PFHandbookPro-Regular", sans-serif;
   float: left;
   text-align: center;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  -o-transition: all .3s ease;
   transition: all .3s ease;
   cursor: pointer;
 }
@@ -3483,8 +3481,6 @@ h3 .reviews-link {
   height: 1px;
   background-color: #ff6600;
   opacity: 0.3;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
   transition: all .3s ease;
 }
 
@@ -3498,8 +3494,6 @@ h3 .reviews-link {
   width: 100%;
   height: 520px;
   position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
 }
@@ -3519,8 +3513,6 @@ h3 .reviews-link {
 }
 
 .gallery-event__foto {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
   position: relative;
@@ -3530,8 +3522,6 @@ h3 .reviews-link {
   width: 100%;
   height: 100%;
   position: absolute;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
   transition: all .3s ease;
   background-color: #000;
   opacity: 0.6;
@@ -3558,7 +3548,6 @@ h3 .reviews-link {
   height: 100%;
   background: url(../images/teambuilding-1.jpg) center center no-repeat;
   border-right: 1px solid #fff;
-  -webkit-background-size: 160% ;
   background-size: 160%;
 }
 
@@ -3567,7 +3556,6 @@ h3 .reviews-link {
   height: 50%;
   background: url(../images/teambuilding-5.jpg) -20px -40px no-repeat;
   border-right: 1px solid #fff;
-  -webkit-background-size: 160%;
   background-size: 160%;
 }
 
@@ -3575,7 +3563,6 @@ h3 .reviews-link {
   width: 20%;
   height: 50%;
   background: url(../images/teambuilding-3.jpg) -30px 0 no-repeat;
-  -webkit-background-size: 130%;
   background-size: 130%;
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
@@ -3588,7 +3575,6 @@ h3 .reviews-link {
   width: 10%;
   height: 25%;
   background: url(../images/teambuilding-8.jpg) -40px 0 no-repeat;
-  -webkit-background-size: 150%;
   background-size: 150%;
   border-right: 1px solid #fff;
   border-bottom: 1px solid #fff;
@@ -3600,7 +3586,6 @@ h3 .reviews-link {
   width: 10%;
   height: 25%;
   background: url(../images/teambuilding-15.jpg) 0 0 no-repeat;
-  -webkit-background-size: 130%;
   background-size: 130%;
   float: left;
   left: -20%;
@@ -3611,7 +3596,6 @@ h3 .reviews-link {
   width: 10%;
   height: 25%;
   background: url(../images/teambuilding-12.jpg) 0 0 no-repeat;
-  -webkit-background-size: 130%;
   background-size: 130%;
   float: left;
   left: -20%;
@@ -3623,7 +3607,6 @@ h3 .reviews-link {
   width: 10%;
   height: 25%;
   background: url(../images/teambuilding-13.jpg) -20px 0 no-repeat;
-  -webkit-background-size: 125%;
   background-size: 125%;
   float: left;
   left: -20%;
@@ -3631,20 +3614,18 @@ h3 .reviews-link {
 }
 
 .gallery-event__foto-eight{
-   width: 20%;
-   height: 50%;
-   background: url(../images/teambuilding-4.jpg) -15px 0 no-repeat;
-   -webkit-background-size: 125%;
-   background-size: 125%;
-   float: left;
-   left: 20%;
- }
+  width: 20%;
+  height: 50%;
+  background: url(../images/teambuilding-4.jpg) -15px 0 no-repeat;
+  background-size: 125%;
+  float: left;
+  left: 20%;
+}
 
 .gallery-event__foto-nine {
   width: 20%;
   height: 100%;
   background: url(../images/teambuilding-7.jpg) 0 -45px no-repeat;
-  -webkit-background-size: 125%;
   background-size: 125%;
   float: left;
   left: 20%;
