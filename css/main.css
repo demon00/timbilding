@@ -3286,7 +3286,7 @@ h3 .reviews-link {
   content: '';
   width: 100%;
   height: 15px;
-  padding: 6px 10px 5px;
+  padding: 6px 6px 5px 10px;
   position: absolute;
   left: -10px;
   bottom: 0;
@@ -3318,6 +3318,18 @@ h3 .reviews-link {
 
 .last_item {
   margin-right: 0;
+}
+
+.active_item-menu::before {
+  border: 2px solid rgba(0, 112, 159, 1);
+}
+
+.active_item-menu::after {
+  opacity:0;
+}
+
+.active_item-menu {
+  color: #00709f;
 }
 
 .menu__two_hide {

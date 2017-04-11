@@ -1279,7 +1279,8 @@ th {
   }
 
   .menu-button {
-    padding-top: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
   }
 
   .mobile .top-block{
@@ -1289,17 +1290,17 @@ th {
   }
 
   .main__image {
-    width: 135%;
+    width: 150%;
     min-height: 248px;
     position: relative;
-    background-position: -90px center;
+    background-position: -93px center;
     -webkit-background-size: contain;
     background-size: contain;
   }
 
   .menu__two {
     margin-top: 20px;
-    height: 110px !important;
+    height: 108px !important;
     position: relative;
   }
 
@@ -1319,35 +1320,39 @@ th {
   }
 
   .first_item {
-    margin-left: 4px !important;
-    top: 5px;
+    margin-left: 8px !important;
+    top: 4px;
     left: 0;
   }
 
   .second_item {
-    top: 36px;
-    left: 4px;
+    top: 34px;
+    left: 8px;
   }
 
   .third_item {
-    top: 67px;
-    left: 4px;
+    top: 66px;
+    left: 7px;
   }
 
   .four_item {
-    top: 5px;
-    right: 67px;
+    top: 4px;
+    right: 65px;
     text-align: left;
   }
 
   .fift_item {
-    top: 36px;
-    right: 0px;
+    top: 34px;
+    right: -1px;
   }
 
   .last_item {
-    top: 67px;
-    right: 78px;
+    top: 66px;
+    right: 76px;
+  }
+
+  .menu__two_item-link::before {
+    padding-right: 2px;
   }
 
 
@@ -1540,7 +1545,9 @@ th {
 
 }
 
-@media (max-width: 479px) {
+
+@media (max-width: 460px) {
+
   .mobile .course .thumb-course {
     max-width: 300px;
   }
@@ -1601,9 +1608,6 @@ th {
     padding-top: 0;
   }
 
-}
-
-@media (max-width: 460px) {
   .mobile .disabled-mobile {
     display: none;
   }
