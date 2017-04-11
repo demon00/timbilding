@@ -1616,7 +1616,7 @@ th {
   }
   .mobile #header p span {
     margin-right: 0;
-    font-size: 14px;
+    font-size: 16px;
   }
   .mobile .child-cources span {
     padding: 0 30px;
@@ -1731,21 +1731,25 @@ th {
   }
 
   .four_item {
-    left: 4px;
+    left: 6px;
     top: 100px;
     right: auto;
   }
 
   .fift_item {
-    left: 4px;
+    left: 6px;
     top: 131px;
     right: auto;
   }
 
   .last_item {
-    left: 4px;
+    left: 6px;
     right: auto;
     top: 162px;
+  }
+
+  .menu__two_item-link::before {
+    padding-right: 5px;
   }
 
   .description-event__caption {
@@ -1864,6 +1868,10 @@ th {
 
 @media (max-width: 340px) {
 
+  .mobile .logo {
+    margin-bottom: 4px;
+  }
+
   .main__image {
     width: 130%;
     min-height: 200px;
@@ -1898,8 +1906,8 @@ th {
 @media (max-width: 306px) {
 
   .menu-button {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 14px;
+    padding-bottom: 17px;
   }
 
   .phones {
@@ -1913,7 +1921,7 @@ th {
   }
 
   .phones a:first-child {
-    margin-left: -20px;
+    margin-left: -14px;
   }
 
   .phones a:last-child {
