@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee56ada0-cd5e-4dd6-9507-9c8a5ca96c04" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile.css" afterPath="$PROJECT_DIR$/css/mobile.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,8 +35,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="3331" column="17" lean-forward="false" selection-start-line="3331" selection-start-column="17" selection-end-line="3331" selection-end-column="17" />
+            <state relative-caret-position="56208">
+              <caret line="3320" column="1" lean-forward="true" selection-start-line="3320" selection-start-column="1" selection-end-line="3320" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -46,12 +45,14 @@
       <file leaf-file-name="mobile.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="1751" column="20" lean-forward="false" selection-start-line="1751" selection-start-column="20" selection-end-line="1751" selection-end-column="20" />
+            <state relative-caret-position="201">
+              <caret line="1927" column="26" lean-forward="false" selection-start-line="1927" selection-start-column="26" selection-end-line="1927" selection-end-column="26" />
               <folding>
+                <element signature="e#25867#29951#0" expanded="false" />
+                <element signature="e#29954#34819#0" expanded="false" />
                 <element signature="e#34821#35760#0" expanded="false" />
-                <element signature="e#35762#36413#0" expanded="false" />
-                <element signature="e#36416#38548#0" expanded="false" />
+                <element signature="e#35762#36707#0" expanded="false" />
+                <element signature="e#36709#37248#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -133,7 +134,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../your_day" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
@@ -147,12 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491900624088</updated>
-      <workItem from="1491900628497" duration="3860000" />
+      <workItem from="1491900628497" duration="7505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3860000" />
+    <option name="totallyTimeSpent" value="7505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -197,8 +198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="3331" column="17" lean-forward="false" selection-start-line="3331" selection-start-column="17" selection-end-line="3331" selection-end-column="17" />
+        <state relative-caret-position="56208">
+          <caret line="3320" column="1" lean-forward="true" selection-start-line="3320" selection-start-column="1" selection-end-line="3320" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -215,12 +216,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="1751" column="20" lean-forward="false" selection-start-line="1751" selection-start-column="20" selection-end-line="1751" selection-end-column="20" />
+        <state relative-caret-position="201">
+          <caret line="1927" column="26" lean-forward="false" selection-start-line="1927" selection-start-column="26" selection-end-line="1927" selection-end-column="26" />
           <folding>
+            <element signature="e#25867#29951#0" expanded="false" />
+            <element signature="e#29954#34819#0" expanded="false" />
             <element signature="e#34821#35760#0" expanded="false" />
-            <element signature="e#35762#36413#0" expanded="false" />
-            <element signature="e#36416#38548#0" expanded="false" />
+            <element signature="e#35762#36707#0" expanded="false" />
+            <element signature="e#36709#37248#0" expanded="false" />
           </folding>
         </state>
       </provider>

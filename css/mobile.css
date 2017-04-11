@@ -1872,6 +1872,29 @@ th {
     margin-bottom: 4px;
   }
 
+  .menu-button {
+    padding-top: 13px;
+    padding-bottom: 18px
+  }
+
+  .phones {
+    font-size: 14px;
+    padding-top: 5px;
+    line-height: 12px;
+  }
+
+  .phones a {
+    margin: 0;
+  }
+
+  .phones a:first-child {
+    margin-left: -12px;
+  }
+
+  .phones a:last-child {
+    margin-left: 5px;
+  }
+
   .main__image {
     width: 130%;
     min-height: 200px;
@@ -1902,12 +1925,26 @@ th {
 
 }
 
+@media (max-width: 320px) {
 
-@media (max-width: 306px) {
+  .menu-button-container {
+    margin-top: 5px;
+  }
+
+  .menu-icon {
+    margin-right: -4px;
+  }
+
+  .mobile .logo {
+    margin-top: 24px;
+    margin-right: 21px;
+    margin-bottom: 14px;
+    margin-left: 25px;
+  }
 
   .menu-button {
-    padding-top: 14px;
-    padding-bottom: 17px;
+    padding-top: 10px;
+    padding-bottom: 18px;
   }
 
   .phones {
@@ -1920,13 +1957,17 @@ th {
     margin: 0;
   }
 
-  .phones a:first-child {
-    margin-left: -14px;
-  }
-
   .phones a:last-child {
     margin-left: 5px;
   }
+
+  .phones a:first-child {
+    margin-left: -12px;
+  }
+
+}
+
+@media (max-width: 306px) {
 
   .main__image {
     width: 100%;
